@@ -10,7 +10,7 @@ public enum Direction {
 		this.degrees=degrees;
 	}
 	public int getDegrees(){
-		return degrees;	
+		return degrees;
 	}
 	public static Direction findCardinalDirection(int degrees){
 		if (degrees < 45) {
